@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Basic game functionality.unity
+- path: Assets/_scenes/tut_map.unity
   isLoaded: 1
   isActive: 1
