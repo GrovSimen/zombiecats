@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_scenes/tut_map.unity
+=======
+- path: Assets/Basic game functionality.unity
+>>>>>>> Jørgen
   isLoaded: 1
   isActive: 1

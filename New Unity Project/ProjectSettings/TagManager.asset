@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+<<<<<<< HEAD
   - Diggable
+=======
+>>>>>>> Jørgen
   layers:
   - Default
   - TransparentFX
