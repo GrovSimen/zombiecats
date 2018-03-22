@@ -16,12 +16,24 @@ public class PlayerController : MonoBehaviour
 
     public GunController theGun;
 
+	private float distanceChest;
 
+	private GameObject chest;
+
+	private ChestController chestController;
+
+	private int enemiesTotal;
+
+	private int enemiesKilled;
     // Use this for initialization
     void Start()
-    {
+    {	
         myRigidbody = GetComponent<Rigidbody>();
         mainCamera = FindObjectOfType<Camera>();
+		enemiesKilled = 0;
+		enemiesTotal = GameObject.FindGameObjectsWithTag ("Enemy").Length;
+		chest = GameObject.FindGameObjectWithTag ("Chest");
+		chestController = chest.GetComponent<ChestController> ();
     }
 
     // Update is called once per frame
@@ -41,6 +53,7 @@ public class PlayerController : MonoBehaviour
                 Debug.DrawLine(cameraRay.origin, pointToLook, Color.blue);
 
                 transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
+				updateScore ();
         }
 
         if(Input.GetMouseButtonDown(0))
@@ -51,6 +64,7 @@ public class PlayerController : MonoBehaviour
         {
             theGun.isFiring = false;
         }
+		chestChecker ();
     }
 
     private void FixedUpdate()
@@ -58,4 +72,24 @@ public class PlayerController : MonoBehaviour
         myRigidbody.velocity = moveVelocity;
     }
 
+	private void updateScore(){
+		enemiesKilled = enemiesTotal - (enemiesTotal - GameObject.FindGameObjectsWithTag ("Enemy").Length);
+	}
+
+	public int getEnemiesKilled(){
+		return enemiesKilled;
+	}
+
+	public int getTotalEnemies(){
+		return enemiesTotal;
+	}
+
+	private void chestChecker(){
+		distanceChest = Vector3.Distance (gameObject.transform.position, chest.transform.position);
+		if(Input.GetKeyUp (KeyCode.E)) {
+				if(distanceChest < 14.0f){
+					chestController.setOpen();
+				}
+		}
+	}
 }
