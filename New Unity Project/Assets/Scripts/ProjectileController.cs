@@ -22,11 +22,11 @@ public class ProjectileController : MonoBehaviour {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         lifeTime -= Time.deltaTime;
-        if(lifeTime <= 0)
+        if (lifeTime <= 0)
         {
             Destroy(gameObject);
         }
-	}
+    }
 
     void OnCollisionEnter(Collision other)
     {
@@ -35,6 +35,16 @@ public class ProjectileController : MonoBehaviour {
             other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
             Destroy(gameObject);
         }
+        else if(other.gameObject.tag == "Object")
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
 
     }
+
+
 }
