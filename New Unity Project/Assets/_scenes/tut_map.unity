@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 2275403}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2234,6 +2234,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &326134710
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3083,6 +3084,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &382610849
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4036,6 +4038,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &442857377
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6201,6 +6204,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &656151653
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8311,6 +8315,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &914301918
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11057,6 +11062,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &1230628816
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16751,6 +16757,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &1835705728
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16895,6 +16902,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &1854055687
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17177,6 +17185,7 @@ MonoBehaviour:
   moveSpeed: 0
   thePlayer: {fileID: 1142122331}
   scopeRadius: 0
+  timeA: 0
 --- !u!54 &1925119943
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17618,6 +17627,48 @@ Prefab:
       propertyPath: ratioText
       value: 
       objectReference: {fileID: 1768061697}
+    - target: {fileID: 114631467241456798, guid: 9842c7b867676433d82c0cba6f357240,
+        type: 2}
+      propertyPath: Projectile
+      value: 
+      objectReference: {fileID: 114074730924101310, guid: e68964bd116b94b52b695cda4aeb7c21,
+        type: 2}
+    - target: {fileID: 4255549034653720, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255549034653720, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255549034653720, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137153813120990, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137153813120990, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137153813120990, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255549034653720, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255549034653720, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255549034653720, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
   m_IsPrefabParent: 0

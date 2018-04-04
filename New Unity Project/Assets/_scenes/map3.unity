@@ -1587,6 +1587,12 @@ Prefab:
       propertyPath: ratioText
       value: 
       objectReference: {fileID: 1803360845}
+    - target: {fileID: 114631467241456798, guid: 9842c7b867676433d82c0cba6f357240,
+        type: 2}
+      propertyPath: Projectile
+      value: 
+      objectReference: {fileID: 114074730924101310, guid: e68964bd116b94b52b695cda4aeb7c21,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
   m_IsPrefabParent: 0
@@ -2593,6 +2599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1330508472}
+  zoomEnabled: 0
 --- !u!81 &720802144
 AudioListener:
   m_ObjectHideFlags: 0

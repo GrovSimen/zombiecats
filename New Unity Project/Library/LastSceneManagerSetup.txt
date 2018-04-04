@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/_scenes/map3.unity
-=======
-- path: Assets/Map 2.unity
->>>>>>> Jørgen
   isLoaded: 1
   isActive: 1

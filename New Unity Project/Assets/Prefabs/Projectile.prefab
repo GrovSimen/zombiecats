@@ -38,11 +38,7 @@ Transform:
   m_GameObject: {fileID: 1638615649285572}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.28, y: 2.48, z: -9.42}
-<<<<<<< HEAD
-  m_LocalScale: {x: 5, y: 5, z: 5}
-=======
-  m_LocalScale: {x: 2, y: 2, z: 2}
->>>>>>> Jørgen
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -61,6 +57,15 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
+  - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
   - {fileID: 2100000, guid: f35a8846d1bdce8419bd6156f990c076, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -99,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 420423cc8c596204a9002d3fa51387aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 1
   lifeTime: 5
   damageToGive: 5
 --- !u!135 &135616853394174570

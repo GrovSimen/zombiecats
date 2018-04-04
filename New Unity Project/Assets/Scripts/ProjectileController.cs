@@ -29,22 +29,13 @@ public class ProjectileController : MonoBehaviour {
     }
 
     void OnCollisionEnter(Collision other)
-    {
-        if(other.gameObject.tag == "Enemy")
-        {
-            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
-            Destroy(gameObject);
-        }
-        else if(other.gameObject.tag == "Object")
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
-    }
-
-
+	{
+		if (other.gameObject.tag == "Enemy") {
+			other.gameObject.GetComponent<EnemyHealthManager> ().HurtEnemy (damageToGive);
+			Destroy (gameObject);
+		} else if (other.gameObject.tag != "Terrain" && other.gameObject.tag != "Player") {
+			print ("collided with object");
+			Destroy (gameObject);
+		}
+	}
 }
