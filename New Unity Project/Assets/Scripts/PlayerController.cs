@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 	private int enemiesTotal;
 
 	private int enemiesKilled;
+
+	private Terrain t;
     // Use this for initialization
     void Start()
     {	
@@ -34,6 +36,7 @@ public class PlayerController : MonoBehaviour
 		enemiesTotal = GameObject.FindGameObjectsWithTag ("Enemy").Length;
 		chest = GameObject.FindGameObjectWithTag ("Chest");
 		chestController = chest.GetComponent<ChestController> ();
+		t = FindObjectOfType<Terrain> ();
     }
 
     // Update is called once per frame
@@ -90,6 +93,12 @@ public class PlayerController : MonoBehaviour
 				if(distanceChest < 14.0f){
 					chestController.setOpen();
 				}
+		}
+	}
+
+	private void posChecker(){
+		if (gameObject.transform.position.x < 0 || gameObject.transform.position.z < 0 || gameObject.transform.position.x > t.terrainData.size.x || gameObject.transform.position.z > t.terrainData.size.z) {
+			print ("Out of bounds");
 		}
 	}
 }

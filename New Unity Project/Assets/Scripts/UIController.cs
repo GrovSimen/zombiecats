@@ -8,7 +8,7 @@ public class UIController : MonoBehaviour {
 	private PlayerController pc;
 
 	void Start () {
-		textObject = GameObject.Find ("UI").GetComponent<TextMesh> ();
+		textObject = GameObject.Find ("enemyUI").GetComponent<TextMesh> ();
 		pc = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController>();
 	}
 

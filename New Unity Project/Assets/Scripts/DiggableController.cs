@@ -18,7 +18,6 @@ public class DiggableController : MonoBehaviour {
 	}
 
 	public void dig(){
-		print ("dig");
 		health--;
 	}
 
