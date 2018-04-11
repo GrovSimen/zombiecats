@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 114416763986961168}
   - component: {fileID: 114160566418947064}
   - component: {fileID: 114017550661071008}
+  - component: {fileID: 114198601254443278}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -199,6 +200,17 @@ MonoBehaviour:
   ratioText: {fileID: 0}
   health: 5
   flashLength: 1
+--- !u!114 &114198601254443278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964607588828820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe51cf58e1f94aa5be12f37e15ca784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114416763986961168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -210,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95b2db6b9ba2b67448e26c23d1edd0b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 50
+  moveSpeed: 150
   theGun: {fileID: 114631467241456798}
 --- !u!114 &114631467241456798
 MonoBehaviour:
@@ -224,8 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFiring: 0
-  Projectile: {fileID: 114074730924101310, guid: 74a201853dcd85c40960cf5a44aecae7,
-    type: 2}
+  Projectile: {fileID: 0}
   projectileSpeed: 40
   timeBetweenShots: 0.1
   text: {fileID: 0}

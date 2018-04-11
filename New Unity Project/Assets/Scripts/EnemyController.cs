@@ -40,7 +40,6 @@ public class EnemyController : MonoBehaviour {
     }
 
 	void OnCollisionEnter(Collision collision){
-		print ("collided");
 		timeA = Time.realtimeSinceStartup;
 		myRB.velocity = Vector3.Scale( Vector3.left , (transform.forward * moveSpeed));
 	}
