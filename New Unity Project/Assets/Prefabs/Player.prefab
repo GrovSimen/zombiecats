@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 114160566418947064}
   - component: {fileID: 114017550661071008}
   - component: {fileID: 114198601254443278}
+  - component: {fileID: 114419167461736194}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -224,6 +225,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 150
   theGun: {fileID: 114631467241456798}
+--- !u!114 &114419167461736194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964607588828820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c167a0d649fb54026b6404a33a8333de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: '"Map 1"'
 --- !u!114 &114631467241456798
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -14,6 +14,9 @@ public class PlayerResources : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		keys = 0;
+		coins = Data.Coins;
+		bones = Data.Bones;
+		goldenBones = Data.GoldenBones;
 	}
 	
 	// Update is called once per frame
@@ -31,6 +34,7 @@ public class PlayerResources : MonoBehaviour {
 
 	private void addCoins(int amountOfCoins){
 		coins += amountOfCoins;
+		Data.Coins += amountOfCoins;
 	}
 
 	/*
@@ -41,6 +45,7 @@ public class PlayerResources : MonoBehaviour {
 
 	private void addBone(){
 		bones++;
+		Data.Bones++;
 	}
 
 	/*
@@ -73,6 +78,7 @@ public class PlayerResources : MonoBehaviour {
 			print ("bones: " + bones);
 		} else if (resource == "golden bone") {
 			goldenBones++;
+			Data.GoldenBones++;
 		}
 	}
 

@@ -17474,6 +17474,11 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114419167461736194, guid: 9842c7b867676433d82c0cba6f357240,
+        type: 2}
+      propertyPath: nextScene
+      value: map1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
   m_IsPrefabParent: 0

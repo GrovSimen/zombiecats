@@ -1548,6 +1548,11 @@ Prefab:
       value: 
       objectReference: {fileID: 114074730924101310, guid: e68964bd116b94b52b695cda4aeb7c21,
         type: 2}
+    - target: {fileID: 114419167461736194, guid: 9842c7b867676433d82c0cba6f357240,
+        type: 2}
+      propertyPath: nextScene
+      value: Menu
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9842c7b867676433d82c0cba6f357240, type: 2}
   m_IsPrefabParent: 0
@@ -1605,6 +1610,10 @@ Prefab:
     - target: {fileID: 400002, guid: f1f6bd3c4ed791c43bd35c356f896c65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f1f6bd3c4ed791c43bd35c356f896c65, type: 3}
+      propertyPath: m_Name
+      value: statue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1f6bd3c4ed791c43bd35c356f896c65, type: 3}

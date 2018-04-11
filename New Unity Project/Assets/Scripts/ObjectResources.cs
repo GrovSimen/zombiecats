@@ -39,11 +39,11 @@ public class ObjectResources : MonoBehaviour {
 		} else {
 			float rand = Random.value;
 
-			if (rand < 0.2f && gotKey == false) {
+			if (rand < 0.05f && gotKey == false) {
 				resource = "key";
-			} else if (rand < 0.4f) {
+			} else if (rand < 0.3f) {
 				resource = "coin";
-			} else if (rand < 0.6f) {
+			} else if (rand >= 0.3f) {
 				resource = "bone";
 			}
 		}
