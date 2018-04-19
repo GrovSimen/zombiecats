@@ -86,6 +86,7 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CameraFollowRotate.cs" />
      <Compile Include="Assets\Scripts\ChestController.cs" />
+     <Compile Include="Assets\Scripts\CoinCollider.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
      <Compile Include="Assets\Scripts\Diggable.cs" />
      <Compile Include="Assets\Scripts\DiggableController.cs" />
