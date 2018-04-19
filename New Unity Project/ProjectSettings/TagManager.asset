@@ -9,6 +9,7 @@ TagManager:
   - Diggable
   - Chest
   - Terrain
+  - Coin
   layers:
   - Default
   - TransparentFX

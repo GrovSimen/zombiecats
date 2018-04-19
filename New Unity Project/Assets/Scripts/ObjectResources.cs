@@ -19,6 +19,8 @@ public class ObjectResources : MonoBehaviour {
 	void Update () {
 		if(gameObject.CompareTag("Chest")){
 			resource = "golden bone";
+		} else if (gameObject.CompareTag("Coin")){
+			
 		} else {
 			amountOfDiggablesLeft = GameObject.FindGameObjectsWithTag ("Diggable").Length;
 			if (playerResources.getKeys () > 0 && gotKey == false) {
