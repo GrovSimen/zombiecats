@@ -12,20 +12,35 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/_scenes/tut_map.unity
     guid: 7a184769db3de44959c618656bcff83e
   - enabled: 0
     path: Assets/_scenes/map1.unity
     guid: be9f7dda9ae83d042a78d870d9842e8d
   - enabled: 0
+=======
+    path: Assets/_scenes/Menu.unity
+    guid: 9aedfce0f9bfd0944a12f556a2d8faad
+  - enabled: 1
+    path: Assets/_scenes/map1.unity
+    guid: be9f7dda9ae83d042a78d870d9842e8d
+  - enabled: 1
+>>>>>>> master
     path: Assets/_scenes/map2.unity
     guid: 9047fb54fa9661f4186b32c70b598118
   - enabled: 1
     path: Assets/_scenes/map3.unity
     guid: 991cc9ee160d64b408ff2c76b9ae5e6a
+<<<<<<< HEAD
   - enabled: 0
     path: Assets/_scenes/Menu.unity
     guid: d412832cdda6d4a6b9d7a83475328db5
   - enabled: 1
     path: Assets/_scenes/DemoMenu.unity
     guid: 4501f5c6994d94fd1ac8fd6c4e000d9d
+=======
+  - enabled: 1
+    path: Assets/_scenes/tut_map.unity
+    guid: 7a184769db3de44959c618656bcff83e
+>>>>>>> master

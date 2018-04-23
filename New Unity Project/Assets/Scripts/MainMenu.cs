@@ -8,6 +8,10 @@ public class MainMenu : MonoBehaviour {
 	public void PlayGame ()
     {
         SceneManager.LoadScene("map1");
+<<<<<<< HEAD
+=======
+        Debug.Log("Welp!");
+>>>>>>> master
     }
 
     public void QuitGame ()
