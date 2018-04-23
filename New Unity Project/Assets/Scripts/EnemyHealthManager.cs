@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class EnemyHealthManager : MonoBehaviour {
 
-    public int health;
+    private int health;
     private int currentHealth;
 	// Use this for initialization
 	void Start ()
     {
+		health = 1;
         currentHealth = health;
 	}
 	

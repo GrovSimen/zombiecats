@@ -6,19 +6,17 @@ using UnityEngine.SceneManagement;
 public class EnterNextLevel : MonoBehaviour {
 
 	private PlayerController playerController;
-	private int totalEnemies;
 	private bool finished;
 	public string nextScene;
 	// Use this for initialization
 	void Start () {
 		playerController = GetComponent<PlayerController> ();
-		totalEnemies = playerController.getTotalEnemies ();
 		finished = false;
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (totalEnemies == playerController.getEnemiesKilled ()) {
+		if (0 == playerController.getEnemiesLeft ()) {
 			finished = true;
 		}
 
