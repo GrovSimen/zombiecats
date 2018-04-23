@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour {
 
@@ -32,6 +33,7 @@ public class PlayerHealthManager : MonoBehaviour {
 		if(currentHealth <= 0)
 		{
 			gameObject.SetActive(false);
+			SceneManager.LoadScene ("DeathMenu");
 		}
 
 		if(flashCounter > 0)

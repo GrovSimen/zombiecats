@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_scenes/DeathMenu.unity
+    guid: aea15a66ea7d24c4e90769c451ccd532
+  - enabled: 1
+    path: Assets/_scenes/tut_map.unity
+    guid: 7a184769db3de44959c618656bcff83e
+  - enabled: 1
+    path: Assets/_scenes/DemoMenu.unity
+    guid: 4501f5c6994d94fd1ac8fd6c4e000d9d
+  - enabled: 1
+    path: Assets/_scenes/map3.unity
+    guid: 991cc9ee160d64b408ff2c76b9ae5e6a
