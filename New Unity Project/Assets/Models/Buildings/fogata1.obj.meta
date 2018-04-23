@@ -64,6 +64,9 @@ ModelImporter:
     2100032: pCylinder7Mat
     2100034: pCylinder8Mat
     2100036: polySurface1_pCube9Mat
+    2100038: lambert4SG
+    2100040: lambert2SG
+    2100042: lambert3SG
     2300000: pCube1
     2300002: pCube10
     2300004: pCube11
