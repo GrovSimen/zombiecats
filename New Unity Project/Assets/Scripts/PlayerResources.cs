@@ -18,7 +18,7 @@ public class PlayerResources : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		keys = 0;
+		keys = 1;
 		coins = Data.Coins;
 		bones = Data.Bones;
 		goldenBones = Data.GoldenBones;

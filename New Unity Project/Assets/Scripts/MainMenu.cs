@@ -6,13 +6,11 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
 	public void PlayGame ()
-    {
-        SceneManager.LoadScene("map1");
-<<<<<<< HEAD
-=======
-        Debug.Log("Welp!");
->>>>>>> master
-    }
+	{
+		SceneManager.LoadScene ("map1");
+
+		Debug.Log ("Welp!");
+	}
 
     public void QuitGame ()
     {
