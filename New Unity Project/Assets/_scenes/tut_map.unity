@@ -346,6 +346,11 @@ Prefab:
       propertyPath: m_Name
       value: Enemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
   m_IsPrefabParent: 0
@@ -578,6 +583,11 @@ Prefab:
     - target: {fileID: 1289974883292040, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
       propertyPath: m_Name
       value: Enemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
@@ -1496,6 +1506,11 @@ Prefab:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
   m_IsPrefabParent: 0
@@ -1644,6 +1659,11 @@ Prefab:
         type: 2}
       propertyPath: m_Center.y
       value: 3.9486961
+      objectReference: {fileID: 0}
+    - target: {fileID: 114230292741622486, guid: 4c76a967472d44fabac5f64c5fad1754,
+        type: 2}
+      propertyPath: nextScene
+      value: '"map3"'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c76a967472d44fabac5f64c5fad1754, type: 2}
@@ -4936,6 +4956,11 @@ Prefab:
       propertyPath: m_Name
       value: Enemy (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
   m_IsPrefabParent: 0
@@ -6795,42 +6820,7 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1589335044277808, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114759027858381282, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114759027858381282, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.05950977
-      objectReference: {fileID: 0}
-    - target: {fileID: 114759027858381282, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.50192994
-      objectReference: {fileID: 0}
-    - target: {fileID: 114759027858381282, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.99845475
-      objectReference: {fileID: 0}
-    - target: {fileID: 114759027858381282, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94,
-        type: 2}
-      propertyPath: m_Type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114759027858381282, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114759027858381282, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &620913681
@@ -7830,6 +7820,11 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 47.4
       objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
   m_IsPrefabParent: 0
@@ -8517,6 +8512,11 @@ Prefab:
       propertyPath: m_Name
       value: Enemy (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
   m_IsPrefabParent: 0
@@ -8567,6 +8567,11 @@ Prefab:
     - target: {fileID: 1289974883292040, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
       propertyPath: m_Name
       value: Enemy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
@@ -9046,6 +9051,11 @@ Prefab:
     - target: {fileID: 1289974883292040, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
       propertyPath: m_Name
       value: Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
@@ -9861,6 +9871,7 @@ GameObject:
   - component: {fileID: 907234972}
   - component: {fileID: 907234971}
   - component: {fileID: 907234970}
+  - component: {fileID: 907234973}
   m_Layer: 0
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -9926,7 +9937,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 907234973}
         m_MethodName: ExitToMenu
         m_Mode: 1
         m_Arguments:
@@ -9972,6 +9983,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 907234968}
+--- !u!114 &907234973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907234968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3125b1cf7230a47cbad5e79946a835c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 546827633}
+  counter: 0
 --- !u!1001 &912414695
 Prefab:
   m_ObjectHideFlags: 0
@@ -15334,6 +15358,11 @@ Prefab:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
   m_IsPrefabParent: 0
@@ -15428,37 +15457,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1409131289}
   m_Mesh: {fileID: 4300000, guid: 5620a09226f109343943f01b6efcd974, type: 3}
---- !u!1 &1410447842 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1589335044277808, guid: 2c0fa7e5998ee4bfcbac2904c86f7b94,
-    type: 2}
-  m_PrefabInternal: {fileID: 619316348}
---- !u!114 &1410447844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1410447842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 244605fa4fc3c460eb3e072f30d7ce27, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!1 &1418522816
 GameObject:
   m_ObjectHideFlags: 0
@@ -15629,6 +15627,11 @@ Prefab:
     - target: {fileID: 1289974883292040, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
       propertyPath: m_Name
       value: Enemy (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
@@ -17148,6 +17151,11 @@ Prefab:
       propertyPath: m_Name
       value: Enemy (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 54640759490474518, guid: 66f0dd2b0ae4b4bae821b9793d6014f7,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f0dd2b0ae4b4bae821b9793d6014f7, type: 2}
   m_IsPrefabParent: 0
@@ -17331,6 +17339,7 @@ GameObject:
   - component: {fileID: 1596982421}
   - component: {fileID: 1596982420}
   - component: {fileID: 1596982419}
+  - component: {fileID: 1596982422}
   m_Layer: 0
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -17396,7 +17405,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1596982422}
         m_MethodName: Resume
         m_Mode: 1
         m_Arguments:
@@ -17442,6 +17451,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1596982417}
+--- !u!114 &1596982422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1596982417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3125b1cf7230a47cbad5e79946a835c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 546827633}
+  counter: 0
 --- !u!1001 &1599868373
 Prefab:
   m_ObjectHideFlags: 0

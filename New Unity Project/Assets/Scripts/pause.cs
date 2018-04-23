@@ -52,6 +52,6 @@ public class pause : MonoBehaviour {
     public void ExitToMenu()
     {
         Debug.Log("Loading menu..");
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("DemoMenu");
     }
 }

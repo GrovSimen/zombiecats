@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerResources : MonoBehaviour {
 
@@ -10,6 +11,10 @@ public class PlayerResources : MonoBehaviour {
 	private int coins;
 	private int bones;
 	private int goldenBones;
+	private Text boneText;
+	private Text coinText;
+	private RawImage keyImage;
+	private Text goldenBoneText;
 
 	// Use this for initialization
 	void Start () {
@@ -17,11 +22,14 @@ public class PlayerResources : MonoBehaviour {
 		coins = Data.Coins;
 		bones = Data.Bones;
 		goldenBones = Data.GoldenBones;
+		boneText = GameObject.FindGameObjectWithTag ("boneText").GetComponent<Text> ();
+		keyImage = GameObject.FindGameObjectWithTag ("keyImage").GetComponent<RawImage>();
+		coinText = GameObject.FindGameObjectWithTag ("coinText").GetComponent<Text> ();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+		displayResources ();
 	}
 
 	private void addKey(){
@@ -84,5 +92,17 @@ public class PlayerResources : MonoBehaviour {
 
 	public int getGoldenBones(){
 		return goldenBones;
+	}
+
+	private void displayResources(){
+		boneText.text = bones.ToString();
+		if (keys > 0) {
+			keyImage.color = new Color (255, 255, 255, 1);
+		} else {
+			keyImage.color = new Color (0, 0, 0, 1);
+		}
+
+		coinText.text = coins.ToString();
+
 	}
 }
