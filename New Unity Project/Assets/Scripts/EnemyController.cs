@@ -5,19 +5,19 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour {
 
     private Rigidbody myRB;
-    public float moveSpeed;
+    private float moveSpeed;
 	private float dist;
-    public PlayerController thePlayer;
+    private PlayerController thePlayer;
 	private GameObject player;
-	public float scopeRadius;
-	public float timeA;
+	private float scopeRadius;
 	// Use this for initialization
 	void Start ()
     {	
 		player = GameObject.FindGameObjectWithTag ("Player");
         myRB = GetComponent<Rigidbody>();
         thePlayer = FindObjectOfType<PlayerController>();
-		timeA = 5.0f;
+		scopeRadius = 50.0f;
+		moveSpeed = 15;
 
 	}
 	
@@ -32,16 +32,10 @@ public class EnemyController : MonoBehaviour {
     private void FixedUpdate()
     {
 		if (dist < scopeRadius) {
-			// if pos == pos transform left?
-			if (timeA + 5.0f < Time.realtimeSinceStartup) {
 				myRB.velocity = (transform.forward * moveSpeed);
-			}
+			print (dist);
 		}
     }
-
-	void OnCollisionEnter(Collision collision){
-		timeA = Time.realtimeSinceStartup;
-		myRB.velocity = Vector3.Scale( Vector3.left , (transform.forward * moveSpeed));
-	}
+		
 
 }

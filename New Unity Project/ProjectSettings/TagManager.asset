@@ -10,6 +10,11 @@ TagManager:
   - Chest
   - Terrain
   - Coin
+  - boneText
+  - coinText
+  - goldenBoneText
+  - keyImage
+  - goldBone
   layers:
   - Default
   - TransparentFX

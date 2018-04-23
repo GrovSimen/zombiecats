@@ -22,16 +22,16 @@ public class TextController : MonoBehaviour {
 	}
 
 	private void changeText(){
-		if ((wPressed > 5) && (aPressed > 5) && (sPressed > 5) && (dPressed > 5) && (state == 0)) {
+		if ((wPressed > 2) && (aPressed > 2) && (sPressed > 2) && (dPressed > 2) && (state == 0)) {
 			textObject.text = "Trykk q for å grave\nom du er i nærheten av eit hull";
 			state = 1;
-		} else if ((qPressed > 5) && (state == 1)) {
+		} else if ((qPressed > 2) && (state == 1)) {
 			textObject.text = "Trykk på musen for å skyte vannballonger";
 			state = 2;
-		} else if ((mouseClick > 8) && (state == 2)) {
+		} else if ((mouseClick > 3) && (state == 2)) {
 			textObject.text = "Ha det morro!";
 			state = 3;
-		} else if (mouseClick > 35 && (state == 3)) {
+		} else if (mouseClick > 10 && (state == 3)) {
 			textObject.text = "";
 		}
 	}
