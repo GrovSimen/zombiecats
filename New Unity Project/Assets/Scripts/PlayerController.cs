@@ -24,19 +24,24 @@ public class PlayerController : MonoBehaviour
 
 	private int enemiesTotal;
 
-	private int enemiesKilled;
+	private int enemiesLeft;
 
 	private Terrain t;
+
+	private PlayerAnimatorController pac;
+
+
     // Use this for initialization
     void Start()
     {	
         myRigidbody = GetComponent<Rigidbody>();
         mainCamera = FindObjectOfType<Camera>();
-		enemiesKilled = 0;
+		enemiesLeft = 0;
 		enemiesTotal = GameObject.FindGameObjectsWithTag ("Enemy").Length;
 		chest = GameObject.FindGameObjectWithTag ("Chest");
 		chestController = chest.GetComponent<ChestController> ();
 		t = FindObjectOfType<Terrain> ();
+		pac = GetComponent<PlayerAnimatorController> ();
     }
 
     // Update is called once per frame
@@ -59,9 +64,11 @@ public class PlayerController : MonoBehaviour
 				updateScore ();
         }
 
-        if(Input.GetMouseButtonDown(0))
+		if(Input.GetMouseButtonDown(0))
         {
-            theGun.isFiring = true;
+			pac.throwBalloon ();
+			theGun.isFiring = true;
+
         }
         if(Input.GetMouseButtonUp(0))
         {
@@ -76,11 +83,11 @@ public class PlayerController : MonoBehaviour
     }
 
 	private void updateScore(){
-		enemiesKilled = enemiesTotal - (enemiesTotal - GameObject.FindGameObjectsWithTag ("Enemy").Length);
+		enemiesLeft = enemiesTotal - (enemiesTotal - GameObject.FindGameObjectsWithTag ("Enemy").Length);
 	}
 
-	public int getEnemiesKilled(){
-		return enemiesKilled;
+	public int getEnemiesLeft(){
+		return enemiesLeft;
 	}
 
 	public int getTotalEnemies(){
@@ -101,4 +108,5 @@ public class PlayerController : MonoBehaviour
 			print ("Out of bounds");
 		}
 	}
+		
 }

@@ -14,6 +14,12 @@ public class UIController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		textObject.text = "Fiender: " + pc.getEnemiesKilled () + "/" + pc.getTotalEnemies();
+
+		if (0 == pc.getEnemiesLeft()) {
+			textObject.text = "Trykk enter \n for å begynde neste nivå" ;
+		} else {
+			textObject.text = "Fiender: " + pc.getEnemiesLeft () + "/" + pc.getTotalEnemies();
+		}
+
 	}
 }

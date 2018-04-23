@@ -83,11 +83,13 @@
      <Compile Include="Assets\gamemenu\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\gamemenu\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\gamemenu\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\GiveBone.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CameraFollowRotate.cs" />
      <Compile Include="Assets\Scripts\ChestController.cs" />
      <Compile Include="Assets\Scripts\CoinCollider.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
+     <Compile Include="Assets\Scripts\DemoMenu.cs" />
      <Compile Include="Assets\Scripts\Diggable.cs" />
      <Compile Include="Assets\Scripts\DiggableController.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
@@ -98,6 +100,7 @@
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\ObjectResources.cs" />
      <Compile Include="Assets\Scripts\pause.cs" />
+     <Compile Include="Assets\Scripts\PlayerAnimatorController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerHealthManager.cs" />
      <Compile Include="Assets\Scripts\PlayerResources.cs" />

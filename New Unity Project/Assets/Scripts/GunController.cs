@@ -11,7 +11,7 @@ public class GunController : MonoBehaviour {
 	public ProjectileController Projectile;
 	public float projectileSpeed;
 
-	public float timeBetweenShots;
+	private float timeBetweenShots;
 	private float shotCounter;
 
 	public Text text;
@@ -22,6 +22,7 @@ public class GunController : MonoBehaviour {
 	void Start ()
 	{
 		UpdateText();
+		timeBetweenShots = 1.5f;
 	}
 
 	// Update is called once per frame
@@ -36,7 +37,7 @@ public class GunController : MonoBehaviour {
 				newProjectile.speed = projectileSpeed;
 				projectiles -= 1;
 			}
-			else
+			else if (shotCounter >= 0)
 			{
 				shotCounter -= Time.deltaTime;
 			}
