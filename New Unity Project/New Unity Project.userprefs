@@ -1,20 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GiveBone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerHealthManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="13" Column="3" />
-      <File FileName="Assets/Scripts/PlayerResources.cs" Line="21" Column="11" />
+      <File FileName="Assets/Scripts/DemoMenu.cs" Line="20" Column="39" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/PlayerResources.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnemyController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GunController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/HurtPlayer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerAnimatorController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnterNextLevel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DemoMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/pause.cs" Line="39" Column="37" />
+      <File FileName="Assets/Scripts/pause.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ChestController.cs" Line="1" Column="1" />
       <File FileName="Assets/GiveBone.cs" Line="10" Column="3" />
       <File FileName="Assets/Scripts/ProjectileController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerHealthManager.cs" Line="15" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
